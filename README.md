@@ -10,8 +10,8 @@ Install Apache web server on any of these VMs using provisioning script in Vagra
 Configure port forwarding (host 8080 -> guest 80) for your VM to make the Apache server accessible from your computer.
 ### Build and Test
 ```
-git clone <your-repo>
-cd <repo-hometask_1>
+git clone https://github.com/YaroslavChelentano/EpamDevOpsLab.git
+cd EpamDevOpsLab/hometask_1
 vagrant up
 open internet browser and check Apache web server's default page is available at http://localhost:8080
 ```
